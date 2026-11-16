@@ -49,7 +49,7 @@ public class BankApplication {
         BankAccount account2 = new BankAccount();
 //        System.out.println(account2);
 
-        SavingsAccount savings1 = new SavingsAccount("joseph", 199, 12);
+        BankAccount savings1 = new SavingsAccount("joseph", 199, 12);
         savings1.showSummary();
     }
 }
